@@ -277,12 +277,26 @@ cursor: pointer;
     display: flex;
     justify-content: space-evenly;
     background-color: var(--preview-shadow);
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    padding-bottom:50px;
+    padding-top:50px;
+    gap:100px;
 }
 
 .social-links{
     display: grid;
     align-content: center;
+    padding-bottom:50px;
+    padding-top:50px;
+    gap:20px;
+    
+}
 
+
+.achievements{
+    display: grid;
+    align-content: center;
+    
 }
 
 .post-wrappers{
@@ -352,6 +366,10 @@ cursor: pointer;
     
    
 }
+
+
+
+
 
 
 
